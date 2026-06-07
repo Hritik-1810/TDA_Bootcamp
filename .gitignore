@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Production output
+dist/
+
+# Local environment / Secret variables
+.env
+.env.*
+.vercel
