@@ -505,7 +505,6 @@ function FooterLinks({ title, links }) {
       </ul>
     </div>
   );
-g
 function SectionHeader({ title, action, href, dark = false }) {
   return (
     <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
