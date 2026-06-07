@@ -476,7 +476,7 @@ function Footer() {
       </div>
       <div className="border-t border-zinc-900">
         <div className="page-shell flex flex-col gap-4 py-5 text-xs sm:flex-row sm:items-center sm:justify-between">
-          <p>&copy; 2024 WebdevBootCamp. All rights reserved.</p>
+          <p>&copy; 2026 WebdevBootCamp. All rights reserved.</p>
           <div className="flex flex-wrap gap-4">
             {["Privacy Policy", "Terms of Service", "Cookie Policy", "Sitemap"].map((link) => (
               <a key={link} className="transition hover:text-gold" href="#">
@@ -505,8 +505,7 @@ function FooterLinks({ title, links }) {
       </ul>
     </div>
   );
-}
-
+g
 function SectionHeader({ title, action, href, dark = false }) {
   return (
     <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
