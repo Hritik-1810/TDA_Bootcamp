@@ -505,6 +505,7 @@ function FooterLinks({ title, links }) {
       </ul>
     </div>
   );
+}
 function SectionHeader({ title, action, href, dark = false }) {
   return (
     <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
@@ -536,5 +537,7 @@ function badgeClass(tone) {
   if (tone === "orange") return "bg-orange-500";
   return "bg-coral";
 }
+
+
 
 export default App;
